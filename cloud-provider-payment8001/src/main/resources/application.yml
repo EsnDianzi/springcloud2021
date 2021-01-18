@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: cloud-Payment-service
+    name: cloud-payment-service
   datasource:
     url: jdbc:mysql://localhost:3306/dianzi?useUnicode=true&characterEncoding=utf-8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
@@ -13,6 +13,13 @@ spring:
     druid:
       validation-query: select 1
 
+
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.dianzi.springcloud.entities
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
