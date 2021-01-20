@@ -1,0 +1,13 @@
+server:
+  port: 80
+spring:
+  cloud:
+    consul:
+      discovery:
+        heartbeat:
+          enabled: true
+        service-name: ${spring.application.name}
+      host: 192.168.7.180
+      port: 8500
+  application:
+    name: cloud-consul-consumer-order

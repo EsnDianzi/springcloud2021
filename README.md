@@ -1,3 +1,7 @@
+2021-01-20 guozh add ConsulSingleTon 新建Consul作为注册中心测试
+
+
+
 2021-01-20 guozh add ZookeeperSingleTon 新建Zookeeper作为注册中心测试
 
 
