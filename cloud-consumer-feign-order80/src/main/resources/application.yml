@@ -1,0 +1,22 @@
+server:
+  port: 80
+spring:
+  application:
+    name: cloud-consumer-feign-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+    register-with-eureka: false
+
+ribbon:
+#  建立连接后从服务器读取到可用资源的所用时间
+  ReadTimeOut: 5000
+#  建立连接所用时间，适用于网络状况正常情况下，两端连接所用时间
+  ConnectTimeOut: 5000
+
+logging:
+  level:
+    #feign日志监控哪个接口用什么级别 info debug warn
+    com.dianzi.springcloud.service.PaymentFeignService: debug

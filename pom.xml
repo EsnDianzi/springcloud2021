@@ -17,6 +17,7 @@
         <module>cloud-provider-payment8003</module>
         <module>cloud-providerconsul-payment8004</module>
         <module>cloud-consumerconsul-order80</module>
+        <module>cloud-consumer-feign-order80</module>
     </modules>
     <!--1、添加项目pack方式-->
     <packaging>pom</packaging>

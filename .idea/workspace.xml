@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d97e96b2-61aa-444e-97ba-16e5108c6ccc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/consumerOrderMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/consumerOrderMain80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/dianzi/springcloud/config/ApplicationContextConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/dianzi/springcloud/config/ApplicationContextConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/dianzi/springcloud/consumerOrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/dianzi/springcloud/consumerOrderMain80.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/dianzi/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/dianzi/springcloud/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/dianzi/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/dianzi/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/dianzi/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/dianzi/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/dianzi/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/dianzi/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/dianzi/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/dianzi/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,6 +17,7 @@
     <ignored path="$PROJECT_DIR$/cloud-provider-payment8003/target/" />
     <ignored path="$PROJECT_DIR$/cloud-providerconsul-payment8004/target/" />
     <ignored path="$PROJECT_DIR$/cloud-consumerconsul-order80/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-feign-order80/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,61 +45,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/consumerOrderMain80.java">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/dianzi/springcloud/config/FeignConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/controller/OrderController.java">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/config/ApplicationContextConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="39" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/lb/LoadBalancer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/lb/MyLoadBalancerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="39" selection-end-line="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -134,12 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-providerpayment8001/src/main/java/com/dianzi/springcloud/paymentMain8001.java" />
-        <option value="$PROJECT_DIR$/cloud-providerpayment8001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/dianzi/springcloud/entities/payment.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/dianzi/springcloud/entities/CommonResult.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/dianzi/springcloud/dao/PaymentDao.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/dianzi/springcloud/service/PaymentService.java" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/dianzi/springcloud/service/impl/PaymentServiceImpl.java" />
         <option value="$PROJECT_DIR$/cloud-common-api/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-common-api/src/main/java/com/dianzi/springcloud/entities/CommonResult.java" />
@@ -185,6 +135,12 @@
         <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/lb/MyLoadBalancerImpl.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/lb/MyLoadBalancerImpl.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/dianzi/springcloud/ConsumerFeignOrderMain80.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/dianzi/springcloud/service/PaymentFeignService.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/dianzi/springcloud/controller/OrderFeignController.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/dianzi/springcloud/config/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -206,18 +162,25 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-consumer-order80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-consumer-feign-order80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-consumer-order80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-consumer-feign-order80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-consumer-order80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-consumer-feign-order80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.2.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-openfeign:2.2.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-consumer-feign-order80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-openfeign:2.2.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.cloud:spring-cloud-openfeign-core:2.2.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -242,6 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,74 +217,72 @@
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-order80" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dianzi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dianzi" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dianzi" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dianzi" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="lb" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-order80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -327,6 +290,11 @@
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -349,15 +317,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
@@ -367,47 +326,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -416,66 +339,18 @@
             </path>
             <path>
               <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="ribbon-loadbalancer-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="ribbon-loadbalancer-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="ribbon-loadbalancer-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-starter-netflix-eureka-client-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-starter-netflix-eureka-client-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-starter-netflix-eureka-client-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-starter-netflix-eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
     </panes>
   </component>
@@ -486,7 +361,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611198049722" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611218606540" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment8001" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -518,9 +393,22 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.2349345" />
+    <option name="contentProportion" value="0.39388648" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaMain7002">
+  <component name="RunManager" selected="Spring Boot.ConsumerFeignOrderMain80">
+    <configuration name="ConsumerFeignOrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-feign-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dianzi.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dianzi.springcloud.ConsumerFeignOrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dianzi.springcloud.EurekaMain7001" />
@@ -554,19 +442,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentConsulMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-providerconsul-payment8004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dianzi.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dianzi.springcloud.PaymentConsulMain8004" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-provider-payment8002" />
       <extension name="coverage">
@@ -576,6 +451,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dianzi.springcloud.PaymentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dianzi.springcloud.PaymentMain8003" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -603,19 +485,20 @@
     <list>
       <item itemvalue="Spring Boot.consumerOrderMain80" />
       <item itemvalue="Spring Boot.EurekaMain7001" />
+      <item itemvalue="Spring Boot.PaymentMain8003" />
       <item itemvalue="Spring Boot.paymentMain8001" />
       <item itemvalue="Spring Boot.PaymentMain8002" />
-      <item itemvalue="Spring Boot.PaymentConsulMain8004" />
       <item itemvalue="Spring Boot.OrderConsulMain80" />
       <item itemvalue="Spring Boot.EurekaMain7002" />
+      <item itemvalue="Spring Boot.ConsumerFeignOrderMain80" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaMain7002" />
+        <item itemvalue="Spring Boot.ConsumerFeignOrderMain80" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.paymentMain8001" />
+        <item itemvalue="Spring Boot.EurekaMain7002" />
         <item itemvalue="Spring Boot.OrderConsulMain80" />
-        <item itemvalue="Spring Boot.PaymentConsulMain8004" />
       </list>
     </recent_temporary>
   </component>
@@ -639,18 +522,19 @@
       <workItem from="1610957827477" duration="343000" />
       <workItem from="1610958196122" duration="13644000" />
       <workItem from="1611123535855" duration="3480000" />
-      <workItem from="1611128703251" duration="9475000" />
+      <workItem from="1611128703251" duration="11407000" />
+      <workItem from="1611214644103" duration="3818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48971000" />
+    <option name="totallyTimeSpent" value="54721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1231" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.31206897" visible="true" weight="0.20971867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.31206897" visible="true" weight="0.29582268" />
       <window_info id="Structure" order="1" sideWeight="0.68793106" side_tool="true" weight="0.41517475" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -674,14 +558,14 @@
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.3298791" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.5613126" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.5613126" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.3546462" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32992327" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.50468886" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.5200341" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -728,73 +612,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="61" selection-end-column="19" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/dianzi/springcloud/EurekaMain7001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/dianzi/springcloud/EurekaMain7002.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1177,13 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/IRule.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1250,18 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/dianzi/springcloud/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/dianzi/springcloud/config/ApplicationContextConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1309,6 +1107,93 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="52" column="21" selection-start-line="25" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/dianzi/springcloud/controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/dianzi/springcloud/ConsumerFeignOrderMain80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/dianzi/springcloud/service/PaymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/dianzi/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/dianzi/springcloud/service/PaymentFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/dianzi/springcloud/controller/OrderFeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="20" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/dianzi/springcloud/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
