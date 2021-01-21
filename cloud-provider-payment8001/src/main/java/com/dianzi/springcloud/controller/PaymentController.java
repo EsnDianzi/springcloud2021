@@ -38,6 +38,13 @@ public class PaymentController {
     private DiscoveryClient discoveryClient;
 
 
+
+    @GetMapping("/payment/lb")
+    public String getLB(){
+        return serverPort;
+    }
+
+
     @GetMapping("/payment/get/{id}")
     public CommonResult getPayment(@PathVariable("id") Long id) {
 
