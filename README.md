@@ -1,3 +1,5 @@
+2021-01-22 guozh add Hystrix 新建Hystrix 降级、熔断、DashBoard 测试 V1.5.0
+
 2021-01-21 guozh add OpenFeign 新建OpenFeign 测试 V1.4.0
 
 2021-01-21 guozh add Ribbon 新建Ribbon测试 V1.3.0
