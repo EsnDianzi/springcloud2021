@@ -1,3 +1,5 @@
+2021-01-31 guozh add SpringCloudGateway 新建路由、断言、过滤器 测试 V1.6.0
+
 2021-01-22 guozh add Hystrix 新建Hystrix 降级、熔断、DashBoard 测试 V1.5.0
 
 2021-01-21 guozh add OpenFeign 新建OpenFeign 测试 V1.4.0
